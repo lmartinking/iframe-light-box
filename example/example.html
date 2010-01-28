@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../iflb.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.js"></script>
+    <script type="text/javascript" src="../iflb.js"></script>	
+  </head>
+  <body>
+   
+	<h1>An example of IFLB</h1>
+
+	<h2>Iframe'd Sites</h2>
+
+	<ul>
+
+	<li><a iflb:title="Slashdot" iflb:options="w:800px"
+		href="http://slashdot.org" rel="iflb">Slashdot!</a></li>
+
+	<li><a iflb:title="OSnews" iflb:caption="This is a caption" iflb:options="w:800px,h:600px" 
+		href="http://www.google.com" rel="iflb">OSNews!</a></li>	
+
+	<li><a iflb:title="OSnews" iflb:caption="This is a caption" iflb:options="w:800px,h:600px" 
+		href="http://en.wikipedia.org" rel="iflb">Wiki!</a></li>			
+	</ul>
+
+	<h2>And an image</h2>	
+	
+	<img iflb:title="Title 3"
+		title="A really cool image..." alt="Moscow Subway Map" src="http://www.aisee.com/graph_of_the_month/metrosm.gif" rel="iflb[w:516px,h:592px]" />
+
+	<h2>And some popup inline content...</h2>
+		
+	<span iflb:title="The Amazing Tokyo Subway" iflb:caption="It's like noodles!"
+		name="heh" rel="iflb[w:400px,h:480px]">Hey there click on me!</span>
+
+</body>
+</html>

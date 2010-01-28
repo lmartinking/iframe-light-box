@@ -1,0 +1,120 @@
+#iflb {
+	display:	none;
+	
+	margin:		0;
+	
+	background:	#ffffff;
+	
+	padding:	10px;
+	
+	position:	fixed;
+
+	z-index:	100 !important;
+}
+
+#iflb-header {
+	display:	block;
+
+	background:	#ffffff;
+	height:		32px;
+
+	padding:	0 0 0 5px;
+}
+
+#iflb-title {
+	display:	block;
+	float:		left;
+	
+	font-family:	'Arial', sans-serif;
+	font-size:	28px;
+	
+	height:		32px;
+}
+
+#iflb-close {
+	float:		right;
+	display:	block;
+	width:		80px;
+	height:		32px;
+	max-height:	32px;
+	background:	url('iflb-close-button.png') right top no-repeat;
+	
+	opacity:	0.5;
+	
+	color:		#ffffff;
+	padding:	7px 0 0 0;
+	text-align:	left;
+	font-family:	'Arial', sans-serif;
+	font-size:	12pt;
+}
+
+#iflb-close:hover {
+	opacity:	1.0;
+	color:		#808080;
+}
+
+#iflb-content {
+	display:	block;
+	
+	margin:		10px 0 0 0;
+	
+	width:		100%;
+	
+	border:		1px solid #ffffff;
+
+	padding:	0;
+	overflow:	hidden;
+}
+
+.iflb-content-loading {
+	background:	#ffffff url('iflb-loading.gif') no-repeat center center;
+}
+
+.iflb-content-error {
+	background:	#ffabab;
+}
+
+.iflb-embedded {
+	padding:	0;
+	margin:		0;
+	border:		none;
+}
+
+img.iflb-embedded {
+	/* nothing special atm */
+}
+
+iframe.iflb-embedded {
+	width:		100%;
+	height:		100%;
+}
+
+#iflb-footer {
+	margin:		10px 0 0 0;
+	padding:	2px;
+	text-align:	left;
+}
+
+#iflb-caption {
+	padding:	5px;
+	font-size:	10pt;
+	font-family:	'Arial', sans-serif;
+	text-align:	left;
+}
+
+#iflb-overlay {
+	display:	none;	/* don't change this */
+	
+	background:	#000000;
+	opacity:	0.9;
+	background:	rgba(0,0,0,0.9);	/* in cool browsers, we get transparency! */
+	
+	position:	fixed;
+	
+	left:		0;
+	right:		0;
+	top:		0;
+	bottom:		0;
+	
+	z-index:	90;
+}
